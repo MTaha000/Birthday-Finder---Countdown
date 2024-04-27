@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(../Images/bg3.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.userName,
+.dateOfBirth {
+    background-color: rgb(159, 206, 207);
+    border-radius: 50px;
+    padding: 15px 30px;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 22px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(4, 153, 4);
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+button:hover {
+    background-color: rgb(128, 189, 37);
+    cursor: pointer;
+}
+
+.display {
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    background: url(../Images/bg8.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#displayAge {
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+
+#displayCountdown {
+    font-size: 50px;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.displayName {
+    font-size: 40px;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
+.countdown-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 3px;
+}
+
+.inActive {
+    display: none;
+}
+
+.validation {
+    border: 2px solid red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./script.js" defer></script>
+    <title>Birthday Finder and Countdown</title>
+</head>
+
+<body>
+    <div class="user-info">
+        <div class="userName">
+            <label for=""> Enter Your Name
+                <input type="text" placeholder="Name">
+            </label>
+        </div>
+        <div class="dateOfBirth">
+            <label for=""> Enter Your DateOfBirth
+                <input type="date" class="birthday">
+            </label>
+        </div>
+        <button onclick="birthdayCalculator()">Calculate</button>
+    </div>
+    <div class="display inActive">
+        <span class="displayName"></span>
+        <span id="displayAge"></span>
+        <span class="countdown-title"> Your Next Birthday CountDown</span>
+        <span id="displayCountdown"></span>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@media(max-width : 960px) {
+    #displayAge {
+        font-size: 22px;
+    }
+
+    #displayCountdown {
+        font-size: 33px;
+    }
+
+    .displayName {
+        font-size: 20px;
+    }
+
+    .countdown-title {
+        font-size: 20px;
+    }
+}
+
+@media(max-width : 650px) {
+    #displayAge {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-bottom: 50px;
+    }
+
+    #displayCountdown {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .displayName {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .countdown-title {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    input {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    label {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    .userName,
+    .dateOfBirth {
+        padding: 15px 20px;
+    }
+
+    button {
+        padding: 15px 50px;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+}
+
+@media(max-width : 482px) {
+    #displayAge {
+        font-size: 15px;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    #displayCountdown {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .displayName {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .countdown-title {
+        font-size: 15px;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 10px;
+        margin-left: 5px;
+    }
+
+    label {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .userName,
+    .dateOfBirth {
+        padding: 10px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 12px;
+    }
+}
